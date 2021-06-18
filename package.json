@@ -1,0 +1,22 @@
+{
+    "name": "sc-multiple-games-base",
+    "version": "1.0.0",
+    "main": "./src/app.js",
+    "repository": "https://git3.nexdev.net/sc-packages/sc-multiple-games-base.git",
+    "author": "Alvin Nguyen <alvin.nguyen@luminetsoft.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon --es-module-specifier-resolution=node --watch ./src ./src/app.js",
+        "debug": "nodemon --es-module-specifier-resolution=node --watch ./ --inspect ./src/app.js",
+        "prod": "node --max-old-space-size=8192 --es-module-specifier-resolution=node ./src/app.js",
+        "reg": "npm set registry http://npm.lumigame.com"
+    },
+    "dependencies": {
+        "sc-game-base": "1.24.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
