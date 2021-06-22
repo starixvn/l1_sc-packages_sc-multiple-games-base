@@ -1,8 +1,3 @@
-import Startup from "./startup";
-
-const run = async () => {
-    const startup = new Startup();
-    startup.start();
-};
+const run = async () => {};
 
 run();
