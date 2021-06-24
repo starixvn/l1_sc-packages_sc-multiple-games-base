@@ -1,3 +1,6 @@
+variables:
+  PROJECT_NAME: sc-multiple-games-base
+
 stages:
     - test
     - post-test
