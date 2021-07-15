@@ -7889,10 +7889,10 @@ sc-common@^1.6.0, sc-common@^1.7.0:
     mongoose-long "^0.3.0"
     numeral "^2.0.6"
 
-sc-game-base@2.0.0-beta.10:
-  version "2.0.0-beta.10"
-  resolved "http://npm.lumigame.com/sc-game-base/-/sc-game-base-2.0.0-beta.10.tgz#84fe51f1f380ca098ba82306c7075eb8dd5feeb1"
-  integrity sha512-hdPpmeUEq9KHIAgVTa+5EgyzC+Tt5TzLMYdMTSIy0Cui2Pok5baflhOv1XJh2fLlE5V1N75QqBK6IG/og9ctzQ==
+sc-game-base@2.0.0-beta.11:
+  version "2.0.0-beta.11"
+  resolved "http://npm.lumigame.com/sc-game-base/-/sc-game-base-2.0.0-beta.11.tgz#c42f729be634051d5f094b9396e4e3e0e45fd273"
+  integrity sha512-9w3aNQaWtudY8BKyy/q/SviGjh1e+LEuL2g/aQH5L97uwTJfuh3GyRSUD9ZNmecdVn1I2Psfpu5Y2uXt9pdbaA==
   dependencies:
     "@socket.io/admin-ui" "^0.2.0"
     awilix "^4.3.1"
