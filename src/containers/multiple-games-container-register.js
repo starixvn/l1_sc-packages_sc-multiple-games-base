@@ -7,8 +7,6 @@ export class MultipleGamesContainerRegistry extends Core.ContainerRegistry {
     registerRouters() {
         super.registerRouters();
 
-        this.container.register({
-            httpRouter: asClass(MultipleGamesHttpRouter),
-        });
+        this.container.register({ httpRouter: asClass(MultipleGamesHttpRouter) });
     }
 }
