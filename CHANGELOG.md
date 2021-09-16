@@ -1,3 +1,10 @@
+## [1.0.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.0.0...v1.0.1) (2021-09-16)
+
+
+### Bug Fixes
+
+* format code ([994d0d0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/994d0d061b65254c8a79f30f00aee951963b0ae1))
+
 # 1.0.0 (2021-09-16)
 
 
