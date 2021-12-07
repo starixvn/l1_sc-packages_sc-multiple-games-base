@@ -1,3 +1,19 @@
+# [1.1.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.0.1...v1.1.0) (2021-12-07)
+
+
+### Bug Fixes
+
+* update game-base ([2091ac3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/2091ac372e345b72e851cf6cc4db476e8d233337))
+
+
+### Features
+
+* multiple currencies ([5699f25](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/5699f25a255f2788c1d5fab0ed2de70bd1adc18c))
+* update game base ([e66aeff](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/e66aeff9df85ee7cbc743f9870035136c5583611))
+* update game base ([7134e53](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/7134e53861778c18ffd7ff5ea1ed5f3052d03b12))
+* update SCS release packages ([3fbcb09](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/3fbcb09e106e2e53387d9d2f7b256384f11f0667))
+* upgrade sc-game-base 2.0.1-beta.30 ([479eb7f](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/479eb7f0111ef657c54b691964c96792514905c3))
+
 ## [1.0.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.0.0...v1.0.1) (2021-09-16)
 
 
