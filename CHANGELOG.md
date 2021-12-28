@@ -1,3 +1,17 @@
+# [1.2.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.1.0...v1.2.0) (2021-12-28)
+
+
+### Bug Fixes
+
+* game-base 1.1.1-beta.3 ([3ceed98](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/3ceed98a03b08d4fc0feb5eec8f10b0146aabe31))
+* game-base.2.2.1 ([0829cf6](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/0829cf62caacfcc509f08022a4003e0dee05c3a3))
+* update game base ([f9a2560](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/f9a25609577f289804cd73c44a235cd690e84376))
+
+
+### Features
+
+* upgrade sc-game-base 1.1.1-beta.16 ([fa24edf](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/fa24edf6ea2c8ac771f1c4847b032fdd9730141d))
+
 # [1.1.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.0.1...v1.1.0) (2021-12-07)
 
 
