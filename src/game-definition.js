@@ -7,13 +7,18 @@ export class GameDefinition extends Core.GameDefinition {
         durations = {},
         choices = [],
         choicesMapper = {},
+        hedgeBetGroups = [],
         numberOfRoundHistory = 100,
         historyPageSize = 8,
         repositories,
         generateResult,
         settle,
     }) {
-        super({ id, name, durations, choices, choicesMapper, numberOfRoundHistory, historyPageSize }, generateResult, settle);
+        super(
+            { id, name, durations, choices, hedgeBetGroups, choicesMapper, numberOfRoundHistory, historyPageSize },
+            generateResult,
+            settle
+        );
         this.repositories = repositories;
     }
 }
