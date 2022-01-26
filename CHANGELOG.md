@@ -1,3 +1,10 @@
+# [1.3.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.2.0...v1.3.0) (2022-01-26)
+
+
+### Features
+
+* disallow hedge bet ([e43d858](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/e43d8588207ecb0d2c465030a5206f8e1c03b9dc))
+
 # [1.2.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.1.0...v1.2.0) (2021-12-28)
 
 
