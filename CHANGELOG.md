@@ -1,3 +1,10 @@
+## [1.3.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.3.0...v1.3.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* upgrade sc-game-base 2.4.1 ([534efe5](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/534efe5286a0da9756899beeb00c7ea2b2f9c5b6))
+
 # [1.3.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.2.0...v1.3.0) (2022-01-26)
 
 
