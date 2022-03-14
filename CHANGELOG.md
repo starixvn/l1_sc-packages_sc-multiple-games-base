@@ -1,3 +1,19 @@
+# [1.4.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.3.1...v1.4.0) (2022-03-14)
+
+
+### Bug Fixes
+
+* upgrade sc-game-base@2.4.3-beta.4 ([51a61e2](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/51a61e28eb85c921b95671bb083ec37876151cc4))
+* upgrade sc-game-base@2.4.3-beta.5 ([5c05bc9](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/5c05bc95b146d4241ffba47e7f81f981a37db232))
+* upgrade sc-game-base@2.4.3-beta.6 ([886957f](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/886957f189a86df5866f5f77cd7a4204d2b32839))
+* upgrade sc-game-base@2.4.3-beta.7 ([7a02789](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/7a027892b1b7ba9e090d90921915a9750a5e9dbe))
+* upgrade sc-game-base@2.6.0 ([eb612b5](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/eb612b50fba83a1094542f382e4233798c7224d2))
+
+
+### Features
+
+* exclude test currency bet on total bets ([c5dd0b8](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/c5dd0b8749bb317ba3cb878cf82ef6c508016f0c))
+
 ## [1.3.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.3.0...v1.3.1) (2022-02-10)
 
 
