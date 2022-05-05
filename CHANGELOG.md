@@ -1,3 +1,20 @@
+# [1.5.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.4.0...v1.5.0) (2022-05-05)
+
+
+### Bug Fixes
+
+* operator token ([40771df](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/40771dfa3cec9af40ecb1e66044c40c7cb80f0e5))
+* rebase master ([b0a65f4](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/b0a65f47066f096a88ffb3aba54249f4b7dc5115))
+* upgrade sc-game-base 2.8.1-beta.2 ([f9bbf1b](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/f9bbf1be72f6e32777ff8e239968bfc9d2929f3b))
+* upgrade sc-game-base 2.9.0 ([d54d2ed](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/d54d2ed9094f14ce5dd17bd9b8c7f33d87b882cb))
+
+
+### Features
+
+* upgrade sc-game-base@2.7.2-beta.2 ([1568fd5](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/1568fd52771a6c9779a6aa33e2e7a27b49302dc6))
+* upgrade sc-game-base@2.7.2-beta.3 ([22cea15](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/22cea15cbf201f0ce6ae5d4d4fd5896f9cc4c6d7))
+* upgrade sc-game-base@2.8.1-beta.0 ([9315ae3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/9315ae32642d5ccc831a649a68cdba21df7fb247))
+
 # [1.4.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.3.1...v1.4.0) (2022-03-14)
 
 
