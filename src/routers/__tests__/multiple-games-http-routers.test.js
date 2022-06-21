@@ -42,7 +42,7 @@ describe("multiple-games-http-routers", () => {
 
             // assert
             expect(app.get).toBeCalledWith("/api/game-service/onlineusers", undefined, expect.anything());
-            expect(app.post).toBeCalledWith("/api/game-service/history", expect.anything(), expect.anything());
+            expect(app.post).toBeCalledWith("/api/game-service/history", expect.anything());
         });
     });
 });
