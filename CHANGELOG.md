@@ -1,3 +1,20 @@
+## [1.5.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.5.0...v1.5.1) (2022-06-28)
+
+
+### Bug Fixes
+
+* combine authenticateSettings ([7bf8d0a](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/7bf8d0af2ba5afa46319876c550f55cabb540e8a))
+* operator token for sc ([88e8a88](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/88e8a889f116460455ab0d3f61fb67b551c16fec))
+* rebase branch ([a2179cd](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/a2179cdde540eef03befa007b4057c4136bfb8c6))
+* release version ([32ec69b](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/32ec69b00cf0ae82890955cf732a411925c29aab))
+* revert verify session ([a6bafdd](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/a6bafdd16ad536774d6bea6d09d2a10da7f18657))
+* separate branch ([babf5b8](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/babf5b87121d6569a645b1cec29874e7f719c7d5))
+* update blocking time ([8b66fcd](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/8b66fcd4b4b67e3f26f8143a2bba62739010adb7))
+* update place bet blocking time ([cb29994](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/cb299944f98700abed368a54f94de2009bf8a9bb))
+* upgrade sc-game-base@3.0.3-beta.3 ([2a72e37](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/2a72e3749a706fd1b8ff1a8849a32adc34753904))
+* upgrade sc-game-base@3.0.3-beta.4 ([dc8dfab](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/dc8dfab14669714dc927d23d455cd19d26a695e8))
+* verify session ([a59d1b8](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/a59d1b84b462d2c0e1bb10d12a39cc34eac6db24))
+
 # [1.5.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.4.0...v1.5.0) (2022-05-05)
 
 
