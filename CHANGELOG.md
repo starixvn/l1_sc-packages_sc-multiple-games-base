@@ -1,3 +1,10 @@
+## [1.5.2](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.5.1...v1.5.2) (2022-06-29)
+
+
+### Bug Fixes
+
+* query history ([6918a6b](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/6918a6b9baf037528aaba2532758ac3cec4cd295))
+
 ## [1.5.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.5.0...v1.5.1) (2022-06-28)
 
 
