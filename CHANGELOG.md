@@ -1,3 +1,10 @@
+# [1.6.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.5.3...v1.6.0) (2022-08-19)
+
+
+### Features
+
+* definition - add generateRawResultForHash ([f28f1ff](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/f28f1ff261b4c035d24989a05cfbd85cc166a73d))
+
 ## [1.5.3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.5.2...v1.5.3) (2022-06-29)
 
 
