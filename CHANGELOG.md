@@ -1,3 +1,16 @@
+# [1.7.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.6.0...v1.7.0) (2022-08-24)
+
+
+### Bug Fixes
+
+* support metrics on global app ([9a33e61](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/9a33e61b375ca22b5114cd69ac971fc68725543d))
+* update metrics api to GET ([7fa6c09](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/7fa6c092e5848ab8701aa4767950f5b9e13570eb))
+
+
+### Features
+
+* add metrics api ([ce55c31](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/ce55c318a553f97fe9d7b7c4a2f2e032c2c76ef1))
+
 # [1.6.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.5.3...v1.6.0) (2022-08-19)
 
 
