@@ -21,5 +21,7 @@ export class MultipleGamesHttpRouter extends Core.Routers.HttpRouter {
         app.post(`/api/${this.definition.name}/history`, (_req, res) =>
             this.verifySession(_req, res, this.handleHistoryRequest.bind(this))
         );
+
+        app.post(`/api/${this.definition.name}/metrics`, (_req, res) => this.handleMetrics(_req, res));
     }
 }
