@@ -1,9 +1,9 @@
 import { asClass } from "awilix";
-import { Core } from "sc-game-base";
+import { Table } from "sc-game-base";
 
 import { MultipleTableGamesHttpRouter } from "../routers";
 
-export class MultipleTableGamesContainerRegistry extends Core.ContainerRegistry {
+export class MultipleTableGamesContainerRegistry extends Table.TableContainerRegistry {
     registerRouters() {
         super.registerRouters();
 
