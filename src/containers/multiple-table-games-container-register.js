@@ -11,4 +11,12 @@ export class MultipleTableGamesContainerRegistry extends Table.TableContainerReg
             httpRouter: asClass(MultipleTableGamesHttpRouter),
         });
     }
+
+    registerApis() {
+        super.registerApis();
+
+        this.container.register({
+            allGamesHistoryQuery: asClass(AllGamesHistoryQuery).singleton(),
+        });
+    }
 }
