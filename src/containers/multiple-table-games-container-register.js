@@ -1,7 +1,8 @@
 import { asClass } from "awilix";
 import { Table } from "sc-game-base";
+import AllGamesHistoryQuery from "../query-apis/all-games-history-query";
 
-import { MultipleTableGamesHttpRouter } from "../routers";
+import { MultipleTableGamesHttpRouter, MultipleGamesSocketRouter } from "../routers";
 
 export class MultipleTableGamesContainerRegistry extends Table.TableContainerRegistry {
     registerRouters() {
@@ -9,6 +10,7 @@ export class MultipleTableGamesContainerRegistry extends Table.TableContainerReg
 
         this.container.register({
             httpRouter: asClass(MultipleTableGamesHttpRouter),
+            socketRouter: asClass(MultipleGamesSocketRouter).proxy(),
         });
     }
 
