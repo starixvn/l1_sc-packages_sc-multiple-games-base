@@ -13,7 +13,7 @@ export default class AllGamesHistoryQuery {
     }
 
     async queryHistory(player, page, pageSize) {
-        if (page < 1 || !player) {
+        if (page < 1 || !player || !this.allGamesBetsRepository) {
             return {};
         }
 
