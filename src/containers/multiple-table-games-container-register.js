@@ -1,4 +1,4 @@
-import { asClass } from "awilix";
+import { asClass, asValue } from "awilix";
 import { Table } from "sc-game-base";
 import AllGamesHistoryQuery from "../query-apis/all-games-history-query";
 
