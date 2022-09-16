@@ -1,4 +1,4 @@
-import { asClass } from "awilix";
+import { asClass, asValue } from "awilix";
 import { Table } from "sc-game-base";
 import AllGamesHistoryQuery from "../query-apis/all-games-history-query";
 
@@ -11,6 +11,14 @@ export class MultipleTableGamesContainerRegistry extends Table.TableContainerReg
         this.container.register({
             httpRouter: asClass(MultipleTableGamesHttpRouter),
             socketRouter: asClass(MultipleGamesSocketRouter).proxy(),
+        });
+    }
+
+    registerModels() {
+        super.registerModels();
+
+        this.container.register({
+            allGamesBetsRepository: asValue(undefined),
         });
     }
 
