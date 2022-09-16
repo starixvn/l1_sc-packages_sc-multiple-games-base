@@ -1,14 +1,24 @@
 import { asClass } from "awilix";
-import { Core } from "sc-game-base";
+import { Table } from "sc-game-base";
+import AllGamesHistoryQuery from "../query-apis/all-games-history-query";
 
-import { MultipleTableGamesHttpRouter } from "../routers";
+import { MultipleTableGamesHttpRouter, MultipleGamesSocketRouter } from "../routers";
 
-export class MultipleTableGamesContainerRegistry extends Core.ContainerRegistry {
+export class MultipleTableGamesContainerRegistry extends Table.TableContainerRegistry {
     registerRouters() {
         super.registerRouters();
 
         this.container.register({
             httpRouter: asClass(MultipleTableGamesHttpRouter),
+            socketRouter: asClass(MultipleGamesSocketRouter).proxy(),
+        });
+    }
+
+    registerApis() {
+        super.registerApis();
+
+        this.container.register({
+            allGamesHistoryQuery: asClass(AllGamesHistoryQuery).singleton(),
         });
     }
 }
