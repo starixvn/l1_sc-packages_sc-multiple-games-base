@@ -14,6 +14,14 @@ export class MultipleTableGamesContainerRegistry extends Table.TableContainerReg
         });
     }
 
+    registerModels() {
+        super.registerModels();
+
+        this.container.register({
+            allGamesBetsRepository: asValue(undefined),
+        });
+    }
+
     registerApis() {
         super.registerApis();
 
