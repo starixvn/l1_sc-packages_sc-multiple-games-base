@@ -1,3 +1,11 @@
+## [1.8.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.0...v1.8.1) (2022-09-16)
+
+
+### Bug Fixes
+
+* allGamesBetsRepository registry ([391a39a](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/391a39a602bfb42db355aa134427d38e91ff24c2))
+* container registry ([397e940](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/397e940c37f110a048e42af8f6f1a3dfa88c73c7))
+
 # [1.8.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.7.0...v1.8.0) (2022-09-16)
 
 
