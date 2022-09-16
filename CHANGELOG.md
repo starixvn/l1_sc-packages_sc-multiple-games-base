@@ -1,3 +1,11 @@
+# [1.8.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.7.0...v1.8.0) (2022-09-16)
+
+
+### Features
+
+* add history query for all games ([fb03877](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/fb03877c48cdd1c095bb4128f1a252c17379e9aa))
+* add multiple games socket router ([4dad1c4](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/4dad1c400994fb1a5ea0bc594994b822605e76e6))
+
 # [1.7.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.6.0...v1.7.0) (2022-08-24)
 
 
