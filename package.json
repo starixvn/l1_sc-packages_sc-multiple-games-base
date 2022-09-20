@@ -1,6 +1,6 @@
 {
     "name": "sc-multiple-games-base",
-    "version": "1.8.2-beta.2",
+    "version": "1.8.2-beta.3",
     "description": "SC Game base for multiple games service",
     "main": "./src/index.js",
     "repository": "https://git3.nexdev.net/sc-packages/sc-multiple-games-base.git",
@@ -22,7 +22,7 @@
         "semantic-release": "semantic-release"
     },
     "dependencies": {
-        "sc-game-base": "3.3.0-beta.4"
+        "sc-game-base": "3.3.0-beta.5"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.12.11",
