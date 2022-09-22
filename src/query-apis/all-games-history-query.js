@@ -21,18 +21,24 @@ export default class AllGamesHistoryQuery {
         const numberOfSkippedBets = (page - 1) * pageSize;
         const total = await this.allGamesBetsRepository.countDocuments(filter).exec();
         const betProjection = {
-            bet: {
-                _id: false,
-                uid: false,
-                siteId: false,
-                playerId: false,
-                __v: false,
-                __archive: false,
-                currency: false,
-                operatorId: false,
-                paid: false,
-                betLogs: { _id: false, time: true, choice: true, amount: true },
-            },
+            "bet._id": false,
+            "bet.uid": false,
+            "bet.siteId": false,
+            "bet.playerId": false,
+            "bet.__v": false,
+            "bet.__archive": false,
+            "bet.currency": false,
+            "bet.operatorId": false,
+            "bet.paid": false,
+            "bet.operatorId": false,
+            "bet.betLogs._id": false,
+            "bet.betLogs.name": false,
+            "bet.betLogs.uid": false,
+            "bet.betLogs.roundId": false,
+            "bet.betLogs.siteId": false,
+            "bet.betLogs.currency": false,
+            "bet.betLogs.operatorId": false,
+            "bet.betLogs.playerId": false,
         };
 
         const allGamesBets = await this.allGamesBetsRepository
