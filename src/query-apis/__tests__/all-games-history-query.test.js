@@ -14,7 +14,7 @@ describe("history quer test", () => {
     describe("queryHistory tests", () => {
         describe("when page < 1", () => {
             it("should return empty", async () => {
-                const historyQuery = new AllGamesHistoryQuery(roundQuery, allGamesBetsRepository);
+                const historyQuery = new AllGamesHistoryQuery(allGamesBetsRepository);
 
                 var actualResult = await historyQuery.queryHistory({}, 0, 10);
 
