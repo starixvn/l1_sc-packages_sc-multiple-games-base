@@ -1,3 +1,11 @@
+## [1.8.2](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.1...v1.8.2) (2022-09-26)
+
+
+### Bug Fixes
+
+* all-all-games-history-query - projection ([8582290](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/8582290a9f7906701ac020e42077e6b401fdea6d))
+* upgrade sc-game-base 3.1.1-beta.0 ([8f271db](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/8f271db2adebdcc41f07c66f1e9936f0f8a32e93))
+
 ## [1.8.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.0...v1.8.1) (2022-09-16)
 
 
