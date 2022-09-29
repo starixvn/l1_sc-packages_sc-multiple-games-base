@@ -1,3 +1,10 @@
+## [1.8.3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.2...v1.8.3) (2022-09-29)
+
+
+### Bug Fixes
+
+* get all games history, add round result to view ([f5cd4fb](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/f5cd4fb2248eaf5bfd9af22442f9b7c7053cbd03))
+
 ## [1.8.2](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.1...v1.8.2) (2022-09-26)
 
 
