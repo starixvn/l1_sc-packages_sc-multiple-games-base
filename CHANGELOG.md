@@ -1,3 +1,11 @@
+## [1.8.4-dev-update-all-games-history.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.3...v1.8.4-dev-update-all-games-history.1) (2022-09-29)
+
+
+### Bug Fixes
+
+* all game history - add operatorId filter ([ec5b54e](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/ec5b54e74a069ca16f17a2d96660759af127c910))
+* update all games history query ([4a370a4](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/4a370a47530961833356974fa5c4e6a538e7d432))
+
 ## [1.8.3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.2...v1.8.3) (2022-09-29)
 
 
