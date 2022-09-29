@@ -16,7 +16,7 @@ export default class AllGamesHistoryQuery {
             return {};
         }
 
-        const filter = { playerId: player.session.playerId };
+        const filter = { playerId: player.session.playerId, operatorId: player.session.operatorId };
         const numberOfSkippedBets = (page - 1) * pageSize;
         const total = await this.allGamesBetsRepository.countDocuments(filter).exec();
         const betProjection = {
@@ -38,6 +38,7 @@ export default class AllGamesHistoryQuery {
             "bet.betLogs.operatorId": false,
             "bet.betLogs.playerId": false,
             "bet.round._id": false,
+            "bet.round.id": false,
             "bet.round.time": false,
             "bet.round.exchangeRateId": false,
             "bet.round.__v": false,
