@@ -1,13 +1,11 @@
 import { stubMongoose } from "jest-micro-auto-stub";
 import mongoose from "mongoose";
 
-import RoundQuery from "sc-game-base/src/core/query-apis/round-query";
 import AllGamesHistoryQuery from "../all-games-history-query";
 
 jest.mock("sc-game-base/src/core/query-apis/round-query");
 
 describe("history quer test", () => {
-    const roundQuery = new RoundQuery();
     /** @type {mongoose.Model}*/
     const allGamesBetsRepository = stubMongoose(mongoose.Model);
 
@@ -24,12 +22,7 @@ describe("history quer test", () => {
 
         describe("when  page >= 1", () => {
             it("should return data", async () => {
-                const historyQuery = new AllGamesHistoryQuery(roundQuery, allGamesBetsRepository);
-                roundQuery.getOne.mockReturnValueOnce({
-                    id: 1,
-                    result: { red1: true, red2: false },
-                    settlementResult: { odd: true, even: false },
-                });
+                const historyQuery = new AllGamesHistoryQuery(allGamesBetsRepository);
                 allGamesBetsRepository.countDocuments.mockReturnValue({ exec: jest.fn() });
                 allGamesBetsRepository.countDocuments().exec.mockReturnValueOnce(1);
                 allGamesBetsRepository
@@ -47,6 +40,11 @@ describe("history quer test", () => {
                                     { uid: 1, roundId: 1, choice: "odd" },
                                     { uid: 1, roundId: 1, choice: "even" },
                                 ],
+                                round: {
+                                    id: 1,
+                                    result: { red1: true, red2: false },
+                                    settlementResult: { odd: true, even: false },
+                                }
                             },
                         },
                     ]);
