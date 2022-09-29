@@ -1,6 +1,5 @@
 export default class AllGamesHistoryQuery {
-    constructor(roundQuery, allGamesBetsRepository) {
-        this.roundQuery = roundQuery;
+    constructor(allGamesBetsRepository) {
         this.allGamesBetsRepository = allGamesBetsRepository;
     }
 
@@ -30,7 +29,6 @@ export default class AllGamesHistoryQuery {
             "bet.currency": false,
             "bet.operatorId": false,
             "bet.paid": false,
-            "bet.operatorId": false,
             "bet.betLogs._id": false,
             "bet.betLogs.name": false,
             "bet.betLogs.uid": false,
@@ -39,6 +37,12 @@ export default class AllGamesHistoryQuery {
             "bet.betLogs.currency": false,
             "bet.betLogs.operatorId": false,
             "bet.betLogs.playerId": false,
+            "bet.round._id": false,
+            "bet.round.id": false,
+            "bet.round.time": false,
+            "bet.round.exchangeRateId": false,
+            "bet.round.__v": false,
+            "bet.round.__archive": false,
         };
 
         const allGamesBets = await this.allGamesBetsRepository
@@ -51,13 +55,12 @@ export default class AllGamesHistoryQuery {
             betLogs = await Promise.all(
                 allGamesBets.map(async (allGamesBet) => {
                     const { bet } = allGamesBet;
-                    const round = await this.roundQuery.getOne(bet.roundId, { _id: false });
 
                     return {
                         ...this.convertBet(bet),
                         phien: bet.roundId,
-                        result: round.result,
-                        settlementResult: round.settlementResult,
+                        result: bet.round.result,
+                        settlementResult: bet.round.settlementResult,
                         betLogDetails: this.convertBetLogs(bet.betLogs),
                     };
                 })
