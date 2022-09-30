@@ -1,3 +1,10 @@
+## [1.8.4-dev-update-all-games-history.2](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.4-dev-update-all-games-history.1...v1.8.4-dev-update-all-games-history.2) (2022-09-30)
+
+
+### Bug Fixes
+
+* update all-games-histories model ([2dc29f4](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/2dc29f42020ebd4df1632a153f3fa44c18e80226))
+
 ## [1.8.4-dev-update-all-games-history.1](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.3...v1.8.4-dev-update-all-games-history.1) (2022-09-29)
 
 
