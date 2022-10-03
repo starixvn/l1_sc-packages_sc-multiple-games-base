@@ -13,5 +13,5 @@ include:
       ref: master
       file: "sonarqube/sonarqube.js-unittest.gitlab-ci.yml"
     - project: "ci/common-ci"
-      ref: semantic-beta-release
+      ref: master
       file: "npm/publish-npm.gitlab-ci.yml"
