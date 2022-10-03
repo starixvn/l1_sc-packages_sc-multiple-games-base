@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const bet = {
     playerId: { type: Number, required: true },
+    operatorId: { type: String, required: true },
     bet: { type: Object, required: true },
 };
 

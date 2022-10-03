@@ -1,6 +1,6 @@
 {
     "name": "sc-multiple-games-base",
-    "version": "1.8.3",
+    "version": "1.8.4-dev-update-all-games-history.2",
     "description": "SC Game base for multiple games service",
     "main": "./src/index.js",
     "repository": "https://git3.nexdev.net/sc-packages/sc-multiple-games-base.git",

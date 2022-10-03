@@ -16,7 +16,7 @@ export default class AllGamesHistoryQuery {
             return {};
         }
 
-        const filter = { playerId: player.session.playerId };
+        const filter = { playerId: player.session.playerId, operatorId: player.session.operatorId };
         const numberOfSkippedBets = (page - 1) * pageSize;
         const total = await this.allGamesBetsRepository.countDocuments(filter).exec();
         const betProjection = {
