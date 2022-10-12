@@ -1,3 +1,17 @@
+## [1.8.5](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.4...v1.8.5) (2022-10-12)
+
+
+### Bug Fixes
+
+* add boosted odds ([4c655c0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/4c655c0f04515824459c2128a25b8c7faef8ca62))
+* always publish boosted odds at start placing bet time ([cf9a1f3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/cf9a1f365172ef5a8c22fa732d44f8c359862fe2))
+* fix original odds when calculating promotion ([34923f8](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/34923f86cc530dbc8735a0841582cc7b94806e2a))
+* fix original odds when calculating promotion ([8271312](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/827131296aac1b35c517bdcad93f776910e8f771))
+* fix original odds when calculating promotion ([710e7f3](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/710e7f307fc4f31682fccae35c9494e1692871fd))
+* publish more events ([f3b5e3b](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/f3b5e3b83eac3eb520d9eb727441862910b4a30f))
+* update all odds when having promotion ([1b2afaa](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/1b2afaae4da4ce94c0da11800c767eea9e2812ed))
+* update sc-game-base version ([d4c055e](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/d4c055e2bc6357edca46c762600e69025e06f002))
+
 ## [1.8.4](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.3...v1.8.4) (2022-10-03)
 
 
