@@ -13,7 +13,7 @@ export class GameDefinition extends Core.GameDefinition {
         repositories,
         generateResult,
         settle,
-        generateRawResultForHash
+        generateRawResultForHash,
     }) {
         super(
             { id, name, durations, choices, hedgeBetGroups, choicesMapper, numberOfRoundHistory, historyPageSize },
