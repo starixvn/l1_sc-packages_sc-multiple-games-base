@@ -1,3 +1,10 @@
+## [1.8.7](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.6...v1.8.7) (2022-10-28)
+
+
+### Bug Fixes
+
+* sc-game-base - issue update game data chips from bot ([da95096](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/da95096cbb352da6dd02b067a0e1ee78840809ac))
+
 ## [1.8.6](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.5...v1.8.6) (2022-10-24)
 
 
