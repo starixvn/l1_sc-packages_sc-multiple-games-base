@@ -1,3 +1,15 @@
+# [1.9.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.7...v1.9.0) (2023-02-24)
+
+
+### Bug Fixes
+
+* update sc-game-base stable version ([af80b0f](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/af80b0f8493b6a7988be35feeaca1ee74673d9ab))
+
+
+### Features
+
+* update cors ([e43463c](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/e43463ced9d6f65439c30a8d767cd7178b9f6775))
+
 ## [1.8.7](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.6...v1.8.7) (2022-10-28)
 
 
