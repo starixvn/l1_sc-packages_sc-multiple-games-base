@@ -1,6 +1,6 @@
 {
     "name": "sc-multiple-games-base",
-    "version": "2.0.0",
+    "version": "1.9.0",
     "description": "SC Game base for multiple games service",
     "main": "./src/index.js",
     "repository": "https://git3.nexdev.net/sc-packages/sc-multiple-games-base.git",
@@ -22,7 +22,7 @@
         "semantic-release": "semantic-release"
     },
     "dependencies": {
-        "sc-game-base": "4.1.0"
+        "sc-game-base": "5.0.1-beta.21"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.12.11",
@@ -34,13 +34,13 @@
         "@semantic-release/gitlab": "^6.0.4",
         "@semantic-release/npm": "^7.0.5",
         "@semantic-release/release-notes-generator": "^9.0.1",
-        "@types/jest": "29.0.0",
-        "babel-jest": "29.0.0",
+        "@types/jest": "^26.0.20",
+        "babel-jest": "^26.6.3",
         "husky": "^4.2.5",
         "install": "^0.13.0",
-        "jest": "29.0.0",
-        "jest-extended": "4.0.0",
-        "jest-micro-auto-stub": "1.0.9",
+        "jest": "^26.6.3",
+        "jest-extended": "^0.11.5",
+        "jest-micro-auto-stub": "^1.0.8",
         "jest-sonar-reporter": "^2.0.0",
         "sc-semantic-release": "^1.2.0",
         "semantic-release": "^17.1.1"

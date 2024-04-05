@@ -10,13 +10,14 @@ export class GameDefinition extends Core.GameDefinition {
         hedgeBetGroups = [],
         numberOfRoundHistory = 100,
         historyPageSize = 8,
+        provablyFair = false,
         repositories,
         generateResult,
         settle,
         generateRawResultForHash,
     }) {
         super(
-            { id, name, durations, choices, hedgeBetGroups, choicesMapper, numberOfRoundHistory, historyPageSize },
+            { id, name, durations, choices, hedgeBetGroups, choicesMapper, numberOfRoundHistory, historyPageSize, provablyFair },
             generateResult,
             settle,
             generateRawResultForHash
