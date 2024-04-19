@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const bet = {
-    playerId: { type: Number, required: true },
+    playerId: { type: String, required: true },
     operatorId: { type: String, required: true },
     bet: { type: Object, required: true },
 };
