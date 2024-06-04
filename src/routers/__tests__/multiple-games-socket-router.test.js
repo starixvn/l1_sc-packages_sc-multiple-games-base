@@ -50,16 +50,17 @@ describe("multiple games socket router test", () => {
     router.init(socketClient);
 
     beforeEach(() => {
-        spyOn(logService, "logError");
-        spyOn(logService, "logWarning");
+        jest.clearAllMocks();
+        jest.spyOn(logService, "logError");
+        jest.spyOn(logService, "logWarning");
     });
 
     describe("handleGetHistory", () => {
         describe("when invalidRequest", () => {
             it("should not call query history", async () => {
                 // arrange
-                spyOn(router, "verify").and.returnValue(false);
-                spyOn(allGamesHistoryQuery, "queryHistory");
+                jest.spyOn(router, "verify").mockReturnValueOnce(false);
+                jest.spyOn(allGamesHistoryQuery, "queryHistory");
 
                 // act
                 await router.handleGetAllGamesHistory({});
@@ -86,8 +87,10 @@ describe("multiple games socket router test", () => {
         describe("when have exception", () => {
             it("should log error", async () => {
                 // arrange
-                spyOn(router, "verify").and.returnValue(true);
-                spyOn(allGamesHistoryQuery, "queryHistory").and.throwError("error");
+                jest.spyOn(router, "verify").mockReturnValueOnce(true);
+                jest.spyOn(allGamesHistoryQuery, "queryHistory").mockImplementation(() => {
+                    throw new Error("error");
+                });
 
                 // act
                 await router.handleGetAllGamesHistory({});

@@ -6,6 +6,9 @@ jest.mock("sc-common", () => {
 });
 
 describe("multiple-games-http-routers", () => {
+    beforeEach(() => {
+        jest.clearAllMocks();
+    });
     describe("extends", () => {
         it("should inherit Core.Routers.HttpRouter", () => {
             // act
@@ -25,7 +28,7 @@ describe("multiple-games-http-routers", () => {
                 authenticateSettings: {},
             };
             const instance = new MultipleGamesHttpRouter(appConfigs, undefined, undefined, undefined, undefined, definition);
-            spyOn(instance, "handleOnlineUsers");
+            jest.spyOn(instance, "handleOnlineUsers");
             const app = {
                 get: (url, authenticate, callback) => {
                     callback && callback();
@@ -34,8 +37,8 @@ describe("multiple-games-http-routers", () => {
                     callbacks.forEach((c) => c());
                 },
             };
-            spyOn(app, "get").and.callThrough();
-            spyOn(app, "post").and.callThrough();
+            jest.spyOn(app, "get").mockImplementationOnce(() => {});
+            jest.spyOn(app, "post").mockImplementationOnce(() => {});
 
             // act
             instance.init(app);
