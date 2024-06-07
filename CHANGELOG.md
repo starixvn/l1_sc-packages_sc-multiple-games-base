@@ -1,3 +1,10 @@
+# [2.0.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.9.0...v2.0.0) (2024-06-07)
+
+
+### Features
+
+* upgrade sc-game-base@4.1.0 ([5d93e2b](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/5d93e2b7fe0a645ab228b12b98181aa170361c8f))
+
 # [1.9.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.8.7...v1.9.0) (2023-02-24)
 
 
