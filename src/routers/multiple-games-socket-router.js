@@ -13,6 +13,8 @@ export class MultipleGamesSocketRouter extends Core.Routers.BaseSocketRouter {
         logService,
         playGamePermissionValidator,
         allGamesHistoryQuery,
+        roundQuery,
+        gameResultServiceConsumer,
     }) {
         super({
             definition,
@@ -25,9 +27,13 @@ export class MultipleGamesSocketRouter extends Core.Routers.BaseSocketRouter {
             historyQuery,
             logService,
             playGamePermissionValidator,
+            roundQuery,
+            gameResultServiceConsumer,
         });
 
         this.allGamesHistoryQuery = allGamesHistoryQuery;
+        this.roundQuery = roundQuery;
+        this.gameResultServiceConsumer = gameResultServiceConsumer;
     }
 
     init(socketClient) {
