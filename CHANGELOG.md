@@ -1,3 +1,16 @@
+# [3.0.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v2.0.0...v3.0.0) (2024-08-08)
+
+
+### Features
+
+* sc-game-base-v5 ([b17c824](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/b17c8240320f08b80ccba7fd77fd267c34e5aca1))
+* upgrade sc-game-base@5.3.0 ([44d4055](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/commit/44d40558d2aa5cfb91fcfd0e7d8351edd16550b7))
+
+
+### BREAKING CHANGES
+
+* sc-game-base v5
+
 # [2.0.0](https://git3.nexdev.net/sc-packages/sc-multiple-games-base/compare/v1.9.0...v2.0.0) (2024-06-07)
 
 
